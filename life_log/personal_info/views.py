@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from .models import Personal
 from .serializers import PersonalSerializer
 
+
 class PersonalInfoView(generics.RetrieveUpdateAPIView):
     queryset = Personal.objects.all()
     serializer_class = PersonalSerializer

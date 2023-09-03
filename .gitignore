@@ -1,0 +1,17 @@
+venv
+__pycache__
+.pytest_cache
+db.sqlite3
+.vscode
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pot
+*.egg-info/
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-journal
+venv/
+*.env
